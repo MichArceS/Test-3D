@@ -1,0 +1,310 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.13f1 (22856944e6d2) revision 2262377'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7542 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/MIDI/MIDI-VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56585
+Successfully changed project path to: C:/MIDI/MIDI-VR
+C:/MIDI/MIDI-VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 292.09 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 5.82 ms.
+Initialize engine version: 2022.1.13f1 (22856944e6d2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MIDI/MIDI-VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3771 MB
+    Driver:   31.0.12044.24003
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024714 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 147.47 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (138ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (85ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009442 seconds.
+Android Extension - Scanning For ADB Devices 4716 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MIDI\MIDI-VR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\MIDI\MIDI-VR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.88.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.955 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1962ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+				TypeCache.Initialize (350ms)
+					TypeCache.ScanAssembly (344ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (885ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (644ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 5253 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (140.4 KB). Loaded Objects now: 5691.
+Memory consumption went from 0.79 GB to 0.79 GB.
+Total: 4.977500 ms (FindLiveObjects: 0.644700 ms CreateObjectMapping: 0.297400 ms MarkObjects: 3.804900 ms  DeleteObjects: 0.228500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 422798.284489 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(809a0118e837c72499b29aa3c242fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(809a0118e837c72499b29aa3c242fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586936c0eb01e7f53f0f3b48867fabce') in 0.010392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.655818 seconds.
+  path: Assets/Materials/ground.mat
+  artifactKey: Guid(7003162ad9b5e9543ab88cffe96193e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground.mat using Guid(7003162ad9b5e9543ab88cffe96193e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4249c83438ef7cbc57a57bb19cf3125f') in 0.210298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 466.031367 seconds.
+  path: Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy/InteractionRigOVR.prefab
+  artifactKey: Guid(ffe3be6b11cb93446bff4c254b6d9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy/InteractionRigOVR.prefab using Guid(ffe3be6b11cb93446bff4c254b6d9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5775a18646149ac724213f7a57748c') in 0.036521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-FullSynthetic.prefab
+  artifactKey: Guid(d93b7e04b48cd7b4fa849695dba2ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-FullSynthetic.prefab using Guid(d93b7e04b48cd7b4fa849695dba2ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780287755cadf0df920131b3abe1c58') in 1.157456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Oculus/VR/Editor/Icons/ovr_icon_neutral.png
+  artifactKey: Guid(b86d2628487bc0443833638cf94a2d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Icons/ovr_icon_neutral.png using Guid(b86d2628487bc0443833638cf94a2d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d611d7619351deee0a4a8e8709d052d') in 0.144235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_warning.png
+  artifactKey: Guid(f02eeecc6e9c02943ba538343bbe1a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_warning.png using Guid(f02eeecc6e9c02943ba538343bbe1a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877ff0b9e429b7daa170d457a489b4e6') in 0.038745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/VR/Editor/Icons/ovr_icon_documentation.png
+  artifactKey: Guid(2f7b9be30da388641871c88e2b9de844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Icons/ovr_icon_documentation.png using Guid(2f7b9be30da388641871c88e2b9de844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ea0ac9c698d9012af7e6f62bbfa83d') in 0.049191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_error.png
+  artifactKey: Guid(23ed0d2bfc90b1d4f97cf416f2cd23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_error.png using Guid(23ed0d2bfc90b1d4f97cf416f2cd23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df25e7469f1de40b3475da2e9db8e94') in 0.036844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Oculus/VR/Editor/Icons/ovr_icon_settings.png
+  artifactKey: Guid(4d1a5448975df7842b8a595729e3c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Icons/ovr_icon_settings.png using Guid(4d1a5448975df7842b8a595729e3c23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642bd33ff8c292505d59a218a3dc3d90') in 0.031875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRTrackedKeyboard/OVRHandMask_L.prefab
+  artifactKey: Guid(9aaa891e0ba205049a65645fcd08743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRTrackedKeyboard/OVRHandMask_L.prefab using Guid(9aaa891e0ba205049a65645fcd08743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ba78efac6fb754db7e66671ab19f90') in 0.155781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRTrackedKeyboard/OVRHandMask_R.prefab
+  artifactKey: Guid(f87c1bb867ed6194ea69c0d3a05a6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRTrackedKeyboard/OVRHandMask_R.prefab using Guid(f87c1bb867ed6194ea69c0d3a05a6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10d89738b4f8d6a3fd3565ba1cbadd7') in 0.045813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_neutral.png
+  artifactKey: Guid(a5c6b8a6ed5d33749ac1f5783e1675f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_neutral.png using Guid(a5c6b8a6ed5d33749ac1f5783e1675f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e359d60ec1db2a00b7b45ad02ff77449') in 0.025830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/VR/Editor/Icons/ovr_icon_error.png
+  artifactKey: Guid(e4212f189ce27314d85dab2f7a791639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Icons/ovr_icon_error.png using Guid(e4212f189ce27314d85dab2f7a791639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5a65a9993ae5c08f57cb166da0ee4d') in 0.023720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/TouchHandGrab/OVRHandSphereMap.prefab
+  artifactKey: Guid(47e21ad323ffa484e9de5d3013133bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/TouchHandGrab/OVRHandSphereMap.prefab using Guid(47e21ad323ffa484e9de5d3013133bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ca3e9906ea1aa2482f003b2e74e92') in 0.070751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_success.png
+  artifactKey: Guid(0be6bd91c3ed459429f7e023ab85d7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/OVRProjectSetup/Icons/ovr_icon_category_success.png using Guid(0be6bd91c3ed459429f7e023ab85d7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9b9ad4eaabffecfbb0e15b871d25b6') in 0.021502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Oculus/VR/Editor/Icons/ovr_icon_bug.png
+  artifactKey: Guid(66ebdb1a1469f66469249a72d7082b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/Icons/ovr_icon_bug.png using Guid(66ebdb1a1469f66469249a72d7082b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e4b7ea4c9661b629c6d84c127dcdb5') in 0.024378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHands.prefab
+  artifactKey: Guid(ea16c3c8c1688234fa81a4f39339bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHands.prefab using Guid(ea16c3c8c1688234fa81a4f39339bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d3d55edaf947d86df2f3bcbbf62aec') in 0.045872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Oculus/Interaction/OVRIntegration/Runtime/Oculus.Interaction.OVR.asmdef
+  artifactKey: Guid(7040c93f6035f5749888e6fdf5ef28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/OVRIntegration/Runtime/Oculus.Interaction.OVR.asmdef using Guid(7040c93f6035f5749888e6fdf5ef28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61c0d4d1764ee0275f163fc4ae5a3e9') in 0.012042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/Interaction/OVRIntegration/Editor/Oculus.Interaction.OVR.Editor.asmdef
+  artifactKey: Guid(ac6f6d26602ccd34383cd68b90e9941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/OVRIntegration/Editor/Oculus.Interaction.OVR.Editor.asmdef using Guid(ac6f6d26602ccd34383cd68b90e9941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f851a86912b26d4481ea6b6f77c26c92') in 0.013042 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
